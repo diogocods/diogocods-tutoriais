@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>diogocods. Tutorial</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="div-menu"><!--MENU -->
+            <nav class="menu">
+                <a href="https://diogocods.github.io/landingpage/" class="link-logo" target="_blank">Diogocods.</a>
+                <ul>
+                    <li><a href="" class="link">Tutoriais</a></li>
+                   
+                    <span class="span-linkC">
+                        <li><a href="https://learn.microsoft.com/pt-br/cpp/c-language/c-language-syntax-summary?view=msvc-170" class="link-linguagemC">Linguagem C</a></li>
+                    </span>
+                    <li><a href="" class="link">Contatos</a></li>
+                </ul>
+            </nav>
+        </div><!--MENU -->
+        <div class="container-apresentacao">
+            <div class="titulos">
+                <section class="section-apresentacao">
+                    <h2>Tutorial <span> Linguagem C</span></h2>
+                    <h3>Aprendendo um pouco sobre a linguagem.</h3>
+                    <section class="text-tutorial">
+                        <p>Instalando e testando as dependencias da Linguagem C</p>
+                        <a href="https://learn.microsoft.com/pt-br/cpp/c-language/definitions-and-conventions?view=msvc-170" class="link-tutorial" target="_blank">Sintaxe</a>
+                        <a href="https://learn.microsoft.com/pt-br/cpp/c-language/?view=msvc-170" class="link-tutorial" target="_blank">Download</a>
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="container-conteudo">
+            <div class="titulo-conteudo">
+                <h2>Instalando o GCC para linguagem C e C++ no linux - Passo a Passo</h2>
+                <div class="textos-conteudos">
+                    <p>
+                        O que iremos fazere é instalar o pacote build-essential, e então testar 
+                        o compilador gcc criando uma aplicação básica em linguagem C.
+                        O pacote build-essential é, na verdade, uma referência (lista) para 
+                        todos os pacotes que são necessários para compilar programas (pacotes) 
+                        no Debian. Ele inclui diversos elementos, tais como o compilador gcc 
+                        (que testaremos aqui), compilador g++ (para C++), a ferramenta make, 
+                        diversas bibliotecas e utilitários.
+                    </p>
+                    <p>
+                        Para instalar o pacote build-essential no Ubuntu (e derivados) basta usar 
+                        o gerenciador de pacotes <span class="span-modifique01">apt</span> – lembrando que é necessário estar logado como 
+                        root ou possuir privilégios de usuario administrador <span class="span-modifique02">(sudo):</span>
+                    </p>
+                    <div class="bloco-conteudo">
+                        <p>
+                           <span class="textos-comandos">$ sudo apt update</span> <br>
+                           <span class="textos-comandos">$ sudo apt install build-essential</span>
+                        </p>
+                    </div>
+                    <h2 class="titulo-h2-1"> Vamos verificar as versões instaladas se o pacote foi instalado corretamente:</h2>
+                    <div class="bloco-conteudo">
+                        <p>
+                            <span class="textos-comandos">$ gcc --version</span>
+                        </p>
+                    </div>
+                    <div class="banner-conteudo">
+                        <img src="print-cmd-imagen.png" alt="" class="banner-img">
+                    <h4>No seu terminal, a resposta será semelhante a esta.</h4>
+                    </div>
+                        <p>Agora iremos escrever e compilar um pequeno <span class="textos-comando-instalacao">programa em linguagem C</span> para testar o funcionamento do gcc: <u>(Passo a Passo e com imagens )</u></p>
+                        <p>Vamos criar o arquivo (use seu editor de textos favorito; usaremos o nano aqui):</p>
+                    <div class="bloco-conteudo">
+                        <p><span class="textos-comandos">$ nano teste.c</span></p>
+                    </div>
+                    <p>Digitar o seguinte conteúdo no arquivo:</p>
+                    <div class="bloco-conteudo">
+                        <p>
+                            <span class="textos-comandos">
+                                #include < stdio.h > <br>
+                                    int main() { <br>
+                                    printf("diogocods. Treinamentos em Tecnologia!\n"); <br>
+                                    return 0; <br>
+                                    }
+                            </span>
+                        </p>
+                    </div>
+                    <p>Após criar o arquivo fonte e codificá-lo, vamos salvá-lo e então o fecharemos para voltar ao terminal. O próximo passo é compilar o arquivo com o comando a seguir:</p>
+                    <div class="bloco-conteudo">
+                        <p><span class="textos-comandos">$ gcc teste.c -o teste</span></p>
+                    </div>
+                    <p>Será criado o arquivo binário teste no diretório onde o comando foi executado. Vamos rodar o programa para testar:</p>
+                    <div class="bloco-conteudo">
+                        <p><span class="textos-comandos">$./teste</span></p>
+                        <p>Saída: <span class="textos-comandos">diogocods treinamentos em tecnologia.</span></p> 
+                    </div>
+                    <br>
+                    <p>Mostrarei o passo a passo com imagens:</p>
+                    <div class="banner-conteudo02">
+                        <p>
+                            1º Passo:<br>
+                            <img src="img1.png" alt="" class="banner-img02">
+                        </p>
+                        <p>
+                            2º Passo: <br>
+                            <img src="img2.png" alt="" class="banner-img02">
+                        </p>
+                        
+                        <p>
+                            3º Passo: <br>
+                            <img src="img3.png" alt="" class="banner-img02">
+                        </p>
+                        
+                        <p>
+                            4º Passo: <br>
+                            <img src="img4.png" alt="" class="banner-img02">
+                        </p>
+                       
+                        <p>
+                            5º e utlimo Passo:<br>
+                            <img src="img5.png" alt="" class="banner-img02">
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="container-conteudo-pdfs">
+            <div class="container-pdfs">
+                <div class="divs-pdfs">
+                    <div class="bloco-pdf">
+                        <h2>Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                        Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+                    </div>
+                        
+                    <div class="bloco-pdf">
+                        <h2>Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                        Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+                    </div>
+                        
+                    <div class="bloco-pdf">
+                        <h2>Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                        Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+                    </div>
+                    <div class="bloco-pdf">
+                        <h2>Column</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            <section class="container-contatos">
+
+            </section>
+            <section class="rodaper">
+                <span>Desenvolvido por diogocods. - Desenvolvedor Front-End <br> 
+                <a href="" class="link-sociais">Github</a>
+                <a href="" class="link-sociais">Linkedin</a>
+                </span> 
+            </section>
+           
+        </div>
+    </div>
+</body>
+</html>

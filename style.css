@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    background: scroll;
+    background: #ffffff;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.div-menu{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: none;
+    display: flex;
+    position: relative;
+    padding: 10px 10px;
+    background: #f2f2f2;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    display: block;
+    padding: 10px;
+    list-style: none;
+    /*background: #ddd;*/
+}
+a.link-logo{
+    text-decoration: none;
+    color: #830ae6;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 17px;
+}
+.link{
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: 900;
+    background: #830ae6;
+}
+.menu ul{
+    display: block;
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    display: inline;
+    padding: 20px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+a.link-linguagemC{
+    font-weight: 900;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    background: #830ae6;
+    border-radius: 4px;
+}
+
+.container-apresentacao{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: #830ae6;
+    padding: 20px 10px;
+    border: none;
+}
+.titulos{
+    top:40px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    position: relative; 
+}
+.section-apresentacao{
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 30px 10px;
+}
+.titulos h2{
+    font-size: 3.3em;
+    color: #fff;
+}
+.titulos h3{
+    font-size: 3.1em;
+    color: #fff;
+}
+.text-tutorial p{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 2.1em;
+    font-weight: 900;
+    width: 100%;
+    padding: 10px 10px;
+    margin: auto;
+}
+
+a.link-tutorial{
+    font-weight: 900;
+    color: #830ae6;
+    padding: 10px 25px;
+    border-radius: 4px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    top:20px;
+}
+a:hover{
+    content: none;
+}
+.container-conteudo{
+   
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
+div.titulo-conteudo{
+    width: 100%;
+    margin: auto;
+}
+div.titulo-conteudo h2{
+    width: 100%;
+    margin: auto;
+    color: #000;
+    font-size: 18px;
+    font-weight: 100;
+    position: relative;
+    padding: 10px 10px;
+}
+div.textos-conteudos{
+    top: 10px;
+    width: 55%;
+    margin: auto;
+  
+}
+div.textos-conteudos p{
+    padding: 10px 10px;
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    color: rgb(53, 53, 53); 
+}
+
+.span-modifique01{
+    color: #830ae6;
+}
+.span-modifique02{
+    color: #830ae6;
+}
+div.bloco-conteudo{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: rgb(53, 53, 53);
+    padding: 10px 0px;
+    border: 1px solid #d2d2d2;
+    background: transparent;
+}
+.textos-comandos{
+    color: #830ae6;
+}
+span.textos-comando-versao{
+    position: relative;
+    color: #830ae6;
+}
+div.banner-conteudo{
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+}
+div.banner-conteudo h4{
+    font-weight: 400;
+}
+div.banner-conteudo02{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+}
+div.banner-conteudo02 img.banner-img02{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+div.container-pdfs{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.divs-pdfs{
+
+}
+div.container-footer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+}
+div.container-footer section.rodaper{
+    position: relative;
+    background: #d2d2d2;
+    color:#830ae6; 
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding: 30px 10px;
+}
+div.container-footer a.link-sociais{ 
+    top: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 900;
+    position: relative;
+    background: #830ae6;
+    
+}
+div.container-conteudo-pdfs{
+    
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 10px 15px;
+    position: relative;
+}
+.container-pdfs{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    padding: 10px 10px;
+}
+.divs-pdfs{
+    width: 80%;
+    display:flex;
+    padding: 15px 10px;
+    margin: auto;
+}
+.bloco-pfd{
+    width: 20%;
+    height: 100px;
+    padding: 30px 20px;
+    
+}
+.bloco-pfd p{
+    width: 10%;
+    text-align: justify;
+}
